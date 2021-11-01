@@ -29,6 +29,6 @@ app.use(function (err, req, res, next) {
   res.send("Server error.");
 });
 
-app.listen(443, function () {
-  console.log("Server running on port 443.");
+app.listen(80, function () {
+  console.log("Server running on port 80.");
 });
